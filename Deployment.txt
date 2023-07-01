@@ -1,0 +1,20 @@
+1. AWS Amplify for Frontend:
+
+
+I'll leverage the AWS Amplify Console, which provides a Git-based workflow for deploying and hosting fullstack serverless web applications. My application, consisting of a React frontend and a serverless backend, is a perfect fit for this service.
+
+Once I've connected my repository with the Amplify Console, every code commit will trigger a build and deploy process for my application.
+
+
+
+2. AWS Lambda + Amazon API Gateway for Backend:
+
+For the Python backend, I plan to create a Lambda function that will execute my code in response to HTTP requests. Amazon API Gateway, a fully managed service that's easy to maintain, monitor, and secure at any scale, will handle these requests.
+
+After creating my Lambda function and uploading my Python code, I'll set up an API in Amazon API Gateway and connect it to my Lambda function. If necessary, I'll set up CORS in API Gateway. I'll also be sure to test my API endpoint with a tool like Postman to ensure it's working properly.
+
+
+
+3. Amazon CloudFront for CDN (Optional):
+
+CloudFront could be used to expedite the delivery of my website's content to users. It achieves this by distributing the content from the closest edge location, reducing the time it takes to load my application. However, this step might be optional as AWS Amplify Console automatically sets up a CloudFront distribution for me when I create an Amplify app.

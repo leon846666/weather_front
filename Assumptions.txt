@@ -1,0 +1,7 @@
+I have assumed that the desired weather location will be defined by latitude and longitude. While OpenWeatherMap's API accepts a broader range of identifiers, such as city names, I opted for geographic coordinates for precision.
+
+Google Autocomplete greatly aided in obtaining accurate geographic data. It ensures the location input is valid and safe for backend processing.
+
+I've added a button for users to quickly access the weather data for their current location. Although not explicitly stated in the requirements, I believed this feature would enhance user experience.
+
+I employed Ant-design due to its simplicity and effectiveness. I hope you find the icons, representing different weather conditions like sunshine, snow, mist, and cloudy, visually appealing.

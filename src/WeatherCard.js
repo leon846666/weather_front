@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Spin } from 'antd';
+import { Card } from 'antd';
 
 const WeatherCard = ({ weatherData }) => {
   if (!weatherData) {
